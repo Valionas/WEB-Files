@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Responsive</title>
+    <style>
+        body{
+    width: 100%;
+    height: 800px;
+
+    font-size: 16px;
+}
+.row {
+    width: 80%;
+    height: 100%;
+    background: rgb(177, 233, 48);
+    overflow: scroll;
+    margin-left:10%;
+    margin-right:20%;
+}
+.row-red {
+    float: left;
+    width: 40%;
+    margin-left:5%;
+    margin-right:5%;
+    height: 25%;
+    text-align:left;
+    background: rgb(245, 33, 33);
+}
+.row-blue{
+    float: left;
+    text-align:right;
+    width: 40%;
+    margin-left:5%;
+    margin-right:5%;
+    height: 25%;
+    background: rgb(28, 210, 241);
+}
+.row-nav{
+    width:100%;
+    height:10%;
+    background-color:red;
+    color:white;
+    margin-bottom:5%;
+}
+
+@media only screen and (max-width: 800px){
+    .row-red{
+        width: 90%;
+        margin-left:5%;
+        margin-right:2%;
+    }
+    .row-blue{
+        width: 90%;
+        height:30%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .row-red{
+        width: 100%;
+        margin-left:0;
+        margin-right:0;
+    }
+    .row-blue{
+        width: 100%;
+        margin-left:0;
+        margin-right:0;
+    }
+}
+@media only screen and (max-width: 400px){
+    .row-blue{
+        width: 100%;
+    }
+    .row-red{
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="row-nav">Our nav section</div>
+        <div class="row-red">Some Text</div>
+        <div class="row-blue">Some Text</div>
+        
+       
+    </div>
+    <div class="row">
+        <div class="row-nav">Our nav section</div>
+        <div class="row-red">Some Text</div>
+        <div class="row-blue">Some Text</div>
+        
+       
+    </div>
+</body>
+</html>

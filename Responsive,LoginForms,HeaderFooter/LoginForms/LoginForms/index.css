@@ -1,0 +1,341 @@
+body {
+    background: black;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.title-container, .title {
+    text-align: center;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    text-align: center;
+}
+
+.form-container{
+    width: 100%;
+}
+
+.form {
+    vertical-align: top;
+    width: 350px;
+    height: 600px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    margin: 50px;
+}
+
+.form-register-title{
+    margin: 0;
+    background: rgb(0, 47, 177);
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.form-register-login-container {
+    width: 100%;
+    display: inline-block;
+    margin-top: 42px;
+    margin-left: 56px;
+}
+
+.form-register-title-text {
+    padding: 0;
+    margin: 0;
+    padding-top: 4%;
+}
+.register-input-name {
+    position: relative;
+    float: left;
+}
+.register-name-pic {
+    position: absolute;
+    float: left;
+    top: 2px;
+    left: -30px;
+}
+.register-name-text {
+    width: 250px;
+    height: 25px;
+    border: 0;
+}
+.line {
+    margin-top: 15px;
+    width: 90%;
+    size: 2px;
+}
+
+.register-password-container{
+    width: 100%;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 56px;
+}
+
+.register-password {
+    position: relative;
+    float: left;
+}
+
+.register-pass-text {
+    width: 250px;
+    height: 25px;
+    border: 0;
+}
+
+.register-pass-pic {
+    position: absolute;
+    float: left;
+    top: 2px;
+    left: -30px;
+}
+.confirm-pass-container {
+    width: 100%;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 56px;
+}
+.reg-email.container {
+    width: 100%;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 56px;
+}
+.reg-email {
+    position: relative;
+    float: left;
+}
+.reg-email-pic {
+    position: absolute;
+    float: left;
+    top: 2px;
+    left: -30px;
+}
+.reg-email-input {
+    width: 250px;
+    height: 25px;
+    border: 0;
+}
+.tos {
+    margin-top: 20px;
+}
+.checkBox-reg-form {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+}
+.checkBox-reg {
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+.text-checkBox {
+    float: left;
+    padding-top: 5px;
+    color: gray;
+}
+.textBlue {
+    color: rgb(27, 27, 250);
+}
+.underlinedText{
+    text-decoration: underline;
+    color: gray;
+}
+.signUp {
+    width: 94.5%;
+    height: 50px;
+    background: rgb(34, 34, 233);
+    margin: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.signUp-text {
+    width: 100%;
+    padding-top: 12px;
+    border: 0;
+    background: rgb(34, 34, 233);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text-gray1{
+    color: gray;
+    margin-top: 30px;
+}
+.text-gray2{
+    color: gray;
+    margin-top: 45px;
+}.text-gray3{
+    color: gray;
+    margin-top: 65px;
+}
+.signIN-text {
+    color: blue;
+    text-decoration: underline;
+}
+.login-form {
+    margin: 0;
+    background: rgb(221, 24, 24);
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.login-form-titleText {
+    padding: 0;
+    margin: 0;
+    padding-top: 4%;
+}
+.userName-container{
+    width: 100%;
+    display: inline-block;
+    margin-top: 42px;
+    margin-left: 56px;
+}
+.form-username-container{
+    position: relative;
+    float: left;
+}
+.signIn{
+    width: 94.5%;
+    height: 50px;
+    background: rgb(255, 0, 0);
+    margin: 10px;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.signInButton-text{
+    width: 100%;
+    padding-top: 12px;
+    border: 0;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.socialMedia{
+    width: 94.5%;
+    height: 50px;
+}
+.faceBook > div,
+    .twitter > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+.faceBook{
+    height: 43.5px;
+    width: 40%;
+    margin-left: 30px;
+    background: rgb(42, 42, 235);
+    float: left;
+    border-radius: 15px;
+    position: relative;
+}
+.imgFacebook {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding-right: 10px;
+}
+.textFacebook {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.twitter {
+    height: 43.5px;
+    width: 40%;
+    margin-left: 20px;
+    background: rgb(97, 227, 250);
+    float: left;
+    border-radius: 15px;
+    position: relative;
+}
+.imgTwitter {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding-right: 10px;
+}
+.textTwitter {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.accountTitle{
+    margin: 0;
+    background: rgb(15, 255, 47);
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+.text-accountReset {
+    padding: 0;
+    margin: 0;
+    padding-top: 4%;
+}
+.register-password-containerFix{
+    width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 56px;
+}
+.passwordTextFix{
+    margin-top: 35px;
+    font-size: 20px;
+}
+.resetPass{
+    width: 94.5%;
+    height: 50px;
+    background: rgb(15, 255, 47);
+    margin: 10px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.reset-pass-text {
+    width: 100%;
+    padding-top: 12px;
+    border: 0;
+    background: rgb(15, 255, 47);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.send-button{
+    width: 94.5%;
+    height: 50px;
+    background: rgb(255, 0, 0);
+    margin: 10px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.sendText {
+    width: 100%;
+    padding-top: 12px;
+    border: 0;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+

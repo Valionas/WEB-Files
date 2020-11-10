@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.row {
+    width: 100%;
+    height: 100%;
+    background: rgb(177, 233, 48);
+    overflow: hidden;
+}
+.row-red {
+    float: left;
+    width: 70%;
+    height: 25%;
+    background: rgb(245, 33, 33);
+}
+.row-blue{
+    float: left;
+    width: 30%;
+    height: 25%;
+    background: rgb(28, 210, 241);
+}
+@media only screen and (max-width: 800px){
+    .row-red{
+        width: 60%;
+    }
+    .row-blue{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .row-red{
+        width: 50%;
+    }
+    .row-blue{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .row-blue{
+        width: 100%;
+        margin-top:5%;
+    }
+    .row-red{
+        width: 100%;
+    }
+}
